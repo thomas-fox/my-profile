@@ -1,0 +1,127 @@
+/* Color and font */
+body{
+	background:#EFFFFD;
+	color: #362706;
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap" rel="stylesheet">
+	font-size: 16px;
+	
+	font-weight: bold;
+	}
+
+h1 {
+	color: #7882A4;
+	font-family: Arial black;
+	font-size: 40px;
+	text-align: center;
+}
+
+h2{
+	color: #7882A4;
+	font-family: Arial black;
+	font-size: 26px;
+	font-weight: bold;
+	text-align: center;
+}
+
+h3{
+	color: #B3541E;
+	font-weight: bold;
+}
+
+
+a:hover {
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+/* Custom design with class */
+
+.container {
+	width: 800px;
+	margin: 40px auto;
+}
+
+.card-white {
+	background-color: #EFEFEF;
+	padding:20px ;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+	border-radius: 15px;
+	margin: 30px 10px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: #464E2E;
+	padding: 4px 10px;
+	border-radius: 4px;
+	text-align: center;
+	margin: 20px;
+	color: white;
+}
+
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+    }
+
+.list-inline li {
+	display: inline;
+	padding: 20px;
+
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #3E497A;
+}
+
+
+.list-inline i:hover{
+	color: black;
+}
+
+
+
+.backm {
+	color: #B05E27;
+}
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+@media (max-width: 300px) {
+	.container {
+		width: 250px;
+	}
+}
+
+
